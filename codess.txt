@@ -1,0 +1,25 @@
+	/*
+	int rate, principal,time, simple_interest;
+	
+	cout<<"Please enter principal: ";
+	cin>>principal;
+	cout<<"Please enter rate: ";
+	cin>>rate;
+	cout<<"Please enter time: ";
+	cin>>time;
+	simple_interest= (principal*rate*time)/100;
+	cout<<"Simpel Interest is: "<<simple_interest;
+	
+	
+	
+	
+	/*int age, age_year;
+	
+	cout<<"Please enter your age: ";
+	cin>>age;
+	age_year = 2022-age;
+	
+	cout<<"You were born in "<<age_year;*/
+
+
+	

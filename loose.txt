@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+void fun(float a, float b); 
+int main()
+{   
+    float a, b, sum, sub, mul, divide, mod;
+    char op;
+
+    //operands and operators are enterd by the user
+    cout<<"Enter any two operands with operator=";
+    cin>>a>>op>>b;
+    fun(a, b);
+    return 0;
+}
+void op(float a, float b)
+{
+    if(a+b)
+    {
+        float sum=a+b;
+        cout<<"\nAddition of two numbers is="<<sum;
+    }
+    else if(a-b)
+    {
+        float sub=a-b;
+        cout<<"\nSubtraction of two numbers is="<<sub;
+    }
+    else if(a*b)
+    {
+        float mul=a*b;
+        cout<<"\nMultiplication of two numbers is="<<mul;
+    }
+    else if(a/b)
+    {
+        float divide=a/b;
+        cout<<"\nDivision of two number is="<<divide;
+    }
+    else
+    {
+        cout<<"\nInvalid operator.......";
+    }
+}
